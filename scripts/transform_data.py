@@ -19,3 +19,9 @@ print(staff_count)
 
 print("\nBudget utilization by department:")
 print(budget)
+
+avg_gpa.to_csv("data/avg_gpa_by_department.csv", index=False)
+staff_count.to_csv("data/staff_count_by_department.csv", index=False)
+budget.to_csv("data/budget_utilization.csv", index=False)
+
+print("\nTransformed files saved successfully.")
